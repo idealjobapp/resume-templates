@@ -2,7 +2,7 @@
 
 The CV templates for [IdealJob](https://idealjob.app)'s resume builder, written
 in [Typst](https://typst.app). Anyone can add one by pull request: once it's
-merged, every IdealJob Premium user can pick it in **Build Resume**.
+merged, every IdealJob user can pick it in **Build Resume**.
 
 | Classic Blue | Modern No Photo |
 |---|---|
