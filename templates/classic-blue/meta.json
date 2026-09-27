@@ -1,0 +1,10 @@
+{
+  "id": "classic-blue",
+  "name": "Classic Blue",
+  "author": "IdealJob",
+  "version": "1.0.0",
+  "description": "Photo, contact details and languages in a left column, experience on the right.",
+  "paper": "a4",
+  "photo": true,
+  "tags": ["two-column", "photo", "colour"]
+}

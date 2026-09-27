@@ -1,0 +1,46 @@
+name: Check templates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+env:
+  # Keep in step with TYPST_VERSION in IssuePay's Dockerfile.
+  TYPST_VERSION: 0.14.2
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst and fonts
+        run: |
+          curl -fsSL "https://github.com/typst/typst/releases/download/v${TYPST_VERSION}/typst-x86_64-unknown-linux-musl.tar.xz" | tar -xJ -C /tmp
+          sudo install /tmp/typst-x86_64-unknown-linux-musl/typst /usr/local/bin/typst
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-dejavu-core fonts-dejavu-extra
+          curl -fsSL https://github.com/FortAwesome/Font-Awesome/releases/download/7.0.0/fontawesome-free-7.0.0-desktop.zip -o /tmp/fa.zip
+          mkdir -p /tmp/fonts && unzip -q /tmp/fa.zip -d /tmp/fa && find /tmp/fa -name '*.otf' -exec cp {} /tmp/fonts/ \;
+          typst --version
+
+      - name: Cache Typst packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/typst/packages
+          key: typst-packages-${{ hashFiles('scripts/check.sh') }}
+
+      - name: Render every template against every sample
+        run: FONT_PATH=/tmp/fonts scripts/check.sh
+
+      - name: Upload previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: previews
+          path: previews/
+          retention-days: 30

@@ -1,0 +1,32 @@
+name: Request a template
+description: Ask for a CV design you'd like to use in IdealJob.
+title: "Template request: "
+labels: ["template request"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What should it look like?
+      description: Layout, colours, fonts, one or two columns, photo or not. The more specific, the better.
+    validations:
+      required: true
+  - type: input
+    id: example
+    attributes:
+      label: Link to an example
+      description: A CV or template you like (a public link, never a real person's CV).
+  - type: dropdown
+    id: paper
+    attributes:
+      label: Paper size
+      options: ["A4", "US Letter", "Either"]
+  - type: dropdown
+    id: photo
+    attributes:
+      label: Photo
+      options: ["No photo", "With photo", "Either"]
+  - type: textarea
+    id: why
+    attributes:
+      label: What's it for?
+      description: Industry or country, if it matters (e.g. "academic CV", "German Lebenslauf").

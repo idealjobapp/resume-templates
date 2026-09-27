@@ -1,0 +1,18 @@
+name: Template problem
+description: A template renders wrong for some CV.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: template
+    attributes:
+      label: Template
+      options: ["classic-blue", "modern-no-photo", "Other (say below)"]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: A screenshot helps. Remove any personal details first.
+    validations:
+      required: true

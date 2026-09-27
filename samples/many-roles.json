@@ -1,0 +1,229 @@
+{
+  "name": "Chris Doe",
+  "headline": "Senior Backend Engineer",
+  "email": "alex.morgan@example.com",
+  "phone": "+351 912 345 678",
+  "website": "https://alexmorgan.dev",
+  "linkedin": "https://www.linkedin.com/in/alexmorgan",
+  "github": "https://github.com/alexmorgan",
+  "location": "Lisbon, Portugal",
+  "summary": "Backend engineer with 8 years building payment and marketplace systems in Elixir and Go. I like small teams, boring infrastructure and measurable results, and I have led migrations that cut hosting costs by 60% without downtime.",
+  "experiences": [
+    {
+      "organization": "Company 0",
+      "position": "Engineer level 0",
+      "start_date": "2025-01-01",
+      "end_date": "2025-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 1",
+      "position": "Engineer level 1",
+      "start_date": "2024-01-01",
+      "end_date": "2024-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 2",
+      "position": "Engineer level 2",
+      "start_date": "2023-01-01",
+      "end_date": "2023-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 3",
+      "position": "Engineer level 3",
+      "start_date": "2022-01-01",
+      "end_date": "2022-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 4",
+      "position": "Engineer level 4",
+      "start_date": "2021-01-01",
+      "end_date": "2021-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 5",
+      "position": "Engineer level 5",
+      "start_date": "2020-01-01",
+      "end_date": "2020-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 6",
+      "position": "Engineer level 6",
+      "start_date": "2019-01-01",
+      "end_date": "2019-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 7",
+      "position": "Engineer level 7",
+      "start_date": "2018-01-01",
+      "end_date": "2018-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 8",
+      "position": "Engineer level 8",
+      "start_date": "2017-01-01",
+      "end_date": "2017-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 9",
+      "position": "Engineer level 9",
+      "start_date": "2016-01-01",
+      "end_date": "2016-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 10",
+      "position": "Engineer level 10",
+      "start_date": "2015-01-01",
+      "end_date": "2015-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    },
+    {
+      "organization": "Company 11",
+      "position": "Engineer level 11",
+      "start_date": "2014-01-01",
+      "end_date": "2014-12-31",
+      "description": "Worked on a product used by many people, shipping features every week across web and mobile.",
+      "highlights": [
+        "Achievement 1 with a measurable result that took a full sentence to explain",
+        "Achievement 2 with a measurable result that took a full sentence to explain",
+        "Achievement 3 with a measurable result that took a full sentence to explain"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "institution": "University of Lisbon",
+      "course": "MSc Computer Science",
+      "start_date": "2015-09-01",
+      "end_date": "2017-07-01",
+      "current": false,
+      "gpa": "17/20",
+      "coursework": "Distributed Systems, Databases"
+    },
+    {
+      "institution": "University of Porto",
+      "course": "BSc Informatics",
+      "start_date": "2012-09-01",
+      "end_date": "2015-07-01",
+      "current": false
+    }
+  ],
+  "projects": [
+    {
+      "name": "ledgerkit",
+      "description": "Open source double entry ledger library for Elixir, 1.2k stars.",
+      "start_date": "2021-01-01",
+      "current": true
+    },
+    {
+      "name": "Tiny Status",
+      "description": "Self hosted status page used by 40 small teams.",
+      "start_date": "2019-04-01",
+      "end_date": "2020-02-01"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Solutions Architect Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023"
+    }
+  ],
+  "volunteerings": [
+    {
+      "position": "Mentor",
+      "institution": "Code for Portugal",
+      "start_date": "2019-01-01",
+      "current": true
+    }
+  ],
+  "skills": [
+    "Elixir",
+    "Phoenix",
+    "Go",
+    "PostgreSQL",
+    "Kafka",
+    "AWS",
+    "Terraform",
+    "Docker",
+    "Kubernetes"
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "proficiency": "Native"
+    },
+    {
+      "name": "English",
+      "proficiency": "C2"
+    },
+    {
+      "name": "Spanish",
+      "proficiency": "B1"
+    }
+  ]
+}

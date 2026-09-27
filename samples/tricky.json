@@ -1,0 +1,59 @@
+{
+  "name": "Maria da Conceição Albuquerque de Vasconcelos Sá-Pereira",
+  "headline": "Engenheira de Software #1 [Remote] $100k *bold* _under_ @handle",
+  "email": "maria.conceicao.albuquerque.vasconcelos@really-long-company-domain-example.com",
+  "phone": "",
+  "website": "   ",
+  "linkedin": "maria-sa",
+  "github": "https://gitlab.com/not-github",
+  "location": "São Paulo, Brasil",
+  "summary": "Texto com caracteres especiais: \\ backslash, # hash, [brackets], $dollar$, *asterisks*, _underscores_, `backticks`, @at, <angle>. Emoji ✅ and CJK 日本語.",
+  "experiences": [
+    {
+      "organization": "",
+      "position": "Freelance Developer",
+      "start_date": "2021",
+      "end_date": "",
+      "current": false,
+      "description": "",
+      "highlights": [
+        "",
+        ""
+      ]
+    },
+    {
+      "organization": "Empresa Sem Cargo",
+      "position": "",
+      "start_date": "2019-05-01"
+    }
+  ],
+  "educations": [
+    {
+      "institution": "",
+      "course": "Self taught",
+      "start_date": "",
+      "end_date": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": ""
+    }
+  ],
+  "skills": [
+    " ",
+    "Rust"
+  ],
+  "languages": [
+    {
+      "name": "Português",
+      "proficiency": ""
+    }
+  ],
+  "certifications": [
+    {
+      "name": ""
+    }
+  ],
+  "volunteerings": null
+}

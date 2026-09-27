@@ -1,0 +1,10 @@
+{
+  "id": "modern-no-photo",
+  "name": "Modern No Photo",
+  "author": "IdealJob",
+  "version": "1.0.0",
+  "description": "Single column with coloured headers, no photo. Safe for applicant tracking systems.",
+  "paper": "us-letter",
+  "photo": false,
+  "tags": ["one-column", "ats-friendly"]
+}
